@@ -13,6 +13,20 @@ This code based on Steve Papa's [angular2-autosize solution](https://github.com/
 npm install ionic2-autosize
 ```
 
+Add the declaration to your @NgModule in `app.module.ts`:
+
+```typescript
+import {Autosize} from 'ionic2-autosize';
+
+...
+
+@NgModule({
+  declarations: [
+    Autosize
+  ]
+})
+```
+
 ## Use Example:
 
 ```typescript
